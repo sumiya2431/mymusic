@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#albums-section, #album-details {
+  margin-bottom: 40px;
+}
+
+.album-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.album-item:hover {
+  transform: scale(1.05);
+}
+
+.album-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.album-item h3 {
+  margin: 10px 0;
+}
+
+.album-item p {
+  color: #666;
+  margin: 0 0 10px;
+}
+
+#album-details .album-poster {
+  display: block;
+  margin: 0 auto 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.song-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.song-item h3 {
+  margin: 0 0 5px;
+}
+
+.song-item p {
+  color: #666;
+  margin: 0 0 10px;
+}
+
+audio {
+  width: 100%;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #444;
+}
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-list, .album-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.music-item, .album-item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.music-item audio {
+  margin-top: 10px;
+}
+
+.album-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+} */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
